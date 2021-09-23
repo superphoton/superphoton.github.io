@@ -33,8 +33,14 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ul {
 	list-style: none;
+}
+
+ol{
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
 }
 
 blockquote, q {
